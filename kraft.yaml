@@ -53,7 +53,7 @@ libraries:
     kconfig:
       - CONFIG_LIBARGP=y
   inetutils:
-    version: fe96f9d
+    version: staging
     kconfig:
       - CONFIG_LIBINETUTILS=y
       - CONFIG_LIBINETUTILS_LIBICMP=y
