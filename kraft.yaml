@@ -21,7 +21,7 @@ unikraft:
     - CONFIG_LIBVFSCORE_ROOTFS_RAMFS=y
     - CONFIG_LIBVFSCORE_ROOTFS="ramfs"
     - CONFIG_LIBUKDEBUG=y
-    - CONFIG_LIBUKDEBUG_ANSI_COLOR
+    - CONFIG_LIBUKDEBUG_ANSI_COLOR=y
 targets:
   - architecture: x86_64
     platform: kvm
